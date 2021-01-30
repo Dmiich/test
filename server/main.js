@@ -26,13 +26,13 @@ Meteor.startup(() => {
 
   if (TasksCollection.find().count() === 0) {
     [
-      'First Task',
-      'Second Task',
-      'Third Task',
-      'Fourth Task',
-      'Fifth Task',
-      'Sixth Task',
-      'Seventh Task',
+      'F',
+      'S',
+      'T',
+      'F',
+      'F',
+      'S',
+      'S',
     ].forEach(taskText => insertTask(taskText, user));
   }
 }); 
