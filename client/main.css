@@ -173,14 +173,6 @@ header {
   background-color: #62807e;
 }
 
-.user {
-  display: flex;
-
-  align-self: flex-end;
-
-  margin: 8px 16px 0;
-  font-weight: bold;
-}
 
 .loading {
   display: flex;
@@ -190,5 +182,14 @@ header {
   justify-content: center;
   align-items: center;
 
+  font-weight: bold;
+}
+
+.user {
+  display: flex;
+
+  align-self: flex-end;
+
+  margin: 8px 16px 0;
   font-weight: bold;
 }
