@@ -35,4 +35,4 @@ Meteor.startup(() => {
       'Seventh Task',
     ].forEach(taskText => insertTask(taskText, user));
   }
-});
+}); 
